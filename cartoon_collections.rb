@@ -6,7 +6,6 @@ end
 
 def list_dwarves(array)
   array.each do |item, index|
-  puts "#{index +1}.item"         # Use `each_with_index` to enumerate over the provided array
-  #
-  end    # Print a numbered list of each element
+  puts "#{index +1}.item"
+  end    
 end
